@@ -1,9 +1,4 @@
-# Capturing Body Motion in 3D
+# Video-based realtime activity detection on iOS
+![](activityDetection.gif)
 
-Track a person in the physical environment and visualize their motion by applying the same body movements to a virtual puppet.  
-
-## Overview
-
-- Note: This sample code project is associated with WWDC 2019 session [607: Bringing People into AR](https://developer.apple.com/videos/play/wwdc19/607/).
-
-- Note: To run the app, use an iOS device with A12 chip or later.
+This app enables a real-time activity detection for the activities "nothing, waveLeft, waveRight, callingLeft, callingRight". For this we use the Apple ARKit-Framework and a self trained activity detection model. 
